@@ -1,7 +1,11 @@
 @import '../helpers/variables';
 @import '../helpers/reset';
 @import '../helpers/fonts';
+@import '../helpers/button';
 
 body {
+    padding-left: 80px;
+    padding-right: 80px;
     font-family: $font-family;
+    color: $blue;
 }
