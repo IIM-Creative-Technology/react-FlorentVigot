@@ -1,6 +1,8 @@
 import Header from './Components/Header';
 import HeaderNav from './Data/Header.json';
 import Intro from './Components/Intro';
+import Quiz from './Components/QuizHome'
+import QuizHome from './Data/QuizHome.json'
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
         link="Read"
         label="Voir"
       />
+
+      <Quiz infoData={QuizHome.data}/>  
     </div>
   );
 }
