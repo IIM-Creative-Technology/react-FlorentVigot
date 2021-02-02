@@ -1,0 +1,18 @@
+@import './home';
+@import '../helpers/button';
+
+.home__intro {
+    position: relative;
+    padding-top: 80px;
+    
+    h2 {
+        padding-bottom: 30px;
+        font-size: 35px;
+        font-weight: $font-weight-bold;
+    }
+
+    p {
+        text-align: justify;
+        padding-bottom: 30px;
+    }
+}
