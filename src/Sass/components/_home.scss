@@ -1,0 +1,7 @@
+@import '../helpers/variables';
+@import '../helpers/reset';
+@import '../helpers/fonts';
+
+body {
+    font-family: $font-family;
+}
