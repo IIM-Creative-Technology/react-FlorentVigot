@@ -1,32 +1,30 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import '../Sass/components/_header.scss';
-import wave from '../Assets/wave.svg';
+import '../Sass/components/_quizzHome.scss';
 
-const Logo = ({ image, alt }) => {
-    return (
-        <img src={image} alt={alt} />
-    )
-}
-
-const Nav = (props) => {
-    const Item = props.infoData.map((data, index) => {
+const QuizzCard = (props) => {
+    const Quizz = props.infoData.map((data, index) => {
         return (
-            <li>
-                <Link to={data.title}>{data.title}</Link>
-            </li>
+            <Link to={data.title}>
+                <div key={index} className="home__card">
+                    <div className="home__card-image">
+                        <img src={data.image} alt={data.title} />
+                    </div>
+                    <h2>{data.title}</h2>
+                </div>
+            </Link>
         );
     });
-    return <ul>{Item}</ul>
+    return <>{Quizz}</>
 }
 
-const Header = (props) => {
+const QuizzHome = (props) => {
     const { infoData } = props;
     return (
         <Router>
-            <header>
-                <Logo image={wave} />
-                <Nav infoData={infoData} />
+            <div className="home__quizz">
+                <QuizzCard infoData={infoData} />
+
 
                 <Switch>
                     <Route path="/Quizz1">
@@ -42,25 +40,28 @@ const Header = (props) => {
                         <Quizz4 />
                     </Route>
                 </Switch>
-            </header>
+            </div>
         </Router>
     )
 }
 
 function Quizz1() {
-    return "Quizz1";
+    return;
 }
 
 function Quizz2() {
-    return "Quizz2";
+    return;
 }
 
 function Quizz3() {
-    return "Quizz3";
+    return;
 }
 
 function Quizz4() {
     return "Quizz4";
 }
 
-export default Header;
+export default QuizzHome
+
+
+

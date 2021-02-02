@@ -1,16 +1,16 @@
 {
     "data": [
-         {
-             "title": "Quiz1"
-         },
-         {
-            "title": "Quiz2"
+        {
+            "title": "Quizz1"
         },
         {
-            "title": "Quiz3"
+            "title": "Quizz2"
         },
         {
-            "title": "Quiz4"
+            "title": "Quizz3"
+        },
+        {
+            "title": "Quizz4"
         }
     ]
- }
+}
