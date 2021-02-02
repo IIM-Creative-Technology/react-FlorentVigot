@@ -1,0 +1,45 @@
+// Colors
+$blue: #002d59;
+$white: #fff;
+
+
+// Breakpoints
+$grid-medium: 768px;
+$grid-large: 1000px;
+$grid-widescreen: 1200px;
+$grid-ultrawidescreen: 1400px;
+
+// Breakpoints used with the media-query mixin
+$max-height: 'max-height';
+$small: 'small';
+$medium: 'medium';
+$medium-down: 'medium-down';
+$medium-up: 'medium-up';
+$large: 'large';
+$large-down: 'large-down';
+$large-up: 'large-up';
+$widescreen: 'widescreen';
+$widescreen-down: 'widescreen-down';
+$widescreen-up: 'widescreen-up';
+$ultrawidescreen: 'ultrawidescreen';
+$hover: 'hover';
+$nohover: 'nohover';
+
+$breakpoints: (
+  $max-height '(max-height: #{p2r(800px)})',
+  $small '(max-width: #{p2r($grid-medium - 1)})',
+  $medium '(min-width: #{p2r($grid-medium)}) and (max-width: #{p2r($grid-large - 1)})',
+  $medium-down '(max-width: #{p2r($grid-large - 1)})',
+  $medium-up '(min-width: #{p2r($grid-medium)})',
+  $large '(min-width: #{p2r($grid-large)}) and (max-width: #{p2r($grid-widescreen - 1)})',
+  $large-down '(max-width: #{p2r($grid-widescreen - 1)})',
+  $large-up '(min-width: #{p2r($grid-large)})',
+  $widescreen '(min-width: #{p2r($grid-widescreen)}) and (max-width: #{p2r($grid-ultrawidescreen - 1)})',
+  $widescreen-down '(max-width: #{p2r($grid-ultrawidescreen - 1)})',
+  $widescreen-up '(min-width: #{p2r($grid-widescreen)})',
+  $ultrawidescreen '(min-width: #{p2r($grid-ultrawidescreen)})',
+  $hover '(hover: hover)',
+  $nohover '(hover: none)'
+);
+
+
