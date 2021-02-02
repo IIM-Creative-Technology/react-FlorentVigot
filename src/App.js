@@ -1,9 +1,11 @@
-import Header from './Components/Header';
-import HeaderNav from './Data/Header.json';
-import Intro from './Components/Intro';
+import Header from './Components/Header'
+import HeaderNav from './Data/Header.json'
+import Intro from './Components/Intro'
 import Quiz from './Components/QuizHome'
 import QuizHome from './Data/QuizHome.json'
 import Caesura from './Components/Caesura'
+import Footer from './Components/Footer'
+import FooterNav from './Data/Footer.json'
 
 function App() {
 
@@ -25,6 +27,8 @@ function App() {
 
         Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras sollicitudin varius purus a finibus. Nulla ut eros convallis, sodales ex non, venenatis tortor. Curabitur dignissim venenatis justo a vestibulum. Ut laoreet urna sit amet molestie sodales. Nunc fringilla euismod odio, non interdum dolor faucibus nec. Integer dictum fringilla sapien semper pellentesque. Cras eget arcu quis eros blandit varius ut a ex. Phasellus quis elit tincidunt, luctus nunc efficitur, ullamcorper neque. Aenean posuere dapibus vulputate."
       />
+
+      <Footer infoData={FooterNav.data}/>
     </div>
   );
 }
