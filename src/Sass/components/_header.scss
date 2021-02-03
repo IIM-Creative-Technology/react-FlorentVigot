@@ -2,6 +2,8 @@
 
 header {
     position: relative;
+    margin-left: -80px;
+    margin-right: -80px;
     height: 100px;
     background-color: $blue;
 
@@ -22,8 +24,12 @@ header {
     }
 
     a {
-        text-decoration: none;
         color: $white;
         font-weight: $font-weight-semibold;
+        transition: color 0.2s;
+
+        &:hover {
+            color: $lightblue;
+        }
     }
 }
