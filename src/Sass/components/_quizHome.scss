@@ -3,7 +3,7 @@
 .home__quiz {
     display: flex;
     justify-content: space-between;
-    margin-top: 120px;
+    margin-top: 150px;
     height: 400px;
     margin-left: -80px;
     margin-right: -80px;
@@ -30,9 +30,14 @@
     text-align: center;
     background-color: $white;
     border-radius: 200px;
+    transition: background-color 0.2s;
 
     img {
         width: 80px;
         padding-top: 65px;
+    }
+
+    &:hover {
+        background-color: rgba($blue, 0.3);
     }
 }
