@@ -39,12 +39,7 @@
   .btn {
     @include button;
   }
-  
 
-
-  
-  
-  /** TEST BOUTON WAVE **/
   
   .btn__wave{
     height:100%;
@@ -103,18 +98,6 @@
     }
     100%{
       transform:translate(-50%) rotate(160deg);
-    }
-  }
-  
-  
-
-  
-  @keyframes wave-add-to-cart{
-    0%{
-      transform:translate(-50%) rotate(0deg);
-    }
-    100%{
-      transform:translate(-50%) rotate(360deg);
     }
   }
   
