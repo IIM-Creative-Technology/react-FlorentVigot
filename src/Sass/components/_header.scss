@@ -7,6 +7,11 @@ header {
     height: 100px;
     background-color: $blue;
 
+    @include media-query($small) {
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+
     img {
         position: absolute;
         width: 60px;
