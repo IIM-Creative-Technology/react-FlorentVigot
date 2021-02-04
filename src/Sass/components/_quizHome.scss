@@ -2,19 +2,34 @@
 
 .home__quiz {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-top: 150px;
-    height: 400px;
     margin-left: -80px;
     margin-right: -80px;
     padding-left: 80px;
     padding-right: 80px;
     background-color: $lightblue;
+
+    @include media-query($medium-up) {
+        justify-content: space-between;
+        height: 340px;
+    }
+
+    @include media-query($large-up) {
+        height: 400px;
+    }
 }
 
 .home__card {
     text-align: center;
-    padding-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    @include media-query($medium-up) {
+        padding-top: 80px;
+        padding-bottom: 0;
+    }
     
     h2 {
         padding-top: 50px;
@@ -25,16 +40,38 @@
 }
 
 .home__card-image {
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     text-align: center;
     background-color: $white;
-    border-radius: 200px;
+    border-radius: 180px;
     transition: background-color 0.2s;
 
+    @include media-query($medium-up) {
+        height: 120px;
+        width: 120px;
+        border-radius: 120px;
+    }
+
+    @include media-query($large-up) {
+        height: 200px;
+        width: 200px;
+        border-radius: 200px;
+    }
+
     img {
-        width: 80px;
-        padding-top: 65px;
+        width: 70px;
+        padding-top: 55px;
+
+        @include media-query($medium-up) {
+            width: 50px;
+            padding-top: 35px;
+        }
+
+        @include media-query($large-up) {
+            width: 80px;
+            padding-top: 65px;
+        }
     }
 
     &:hover {
