@@ -1,0 +1,105 @@
+@import '../helpers/mixins';
+
+@mixin button {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 25px;
+    padding-right: 25px;
+    vertical-align: top;
+    font-size: 13px;
+    line-height: 13px;
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    overflow: hidden;
+    border-radius: 0;
+  
+    @include media-query($medium-up) {
+      border-width: 2px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 35px;
+      padding-right: 35px;
+      font-size: 18px;
+      line-height: 18px;
+    }
+
+  }
+  
+  .btn {
+    @include button;
+  }
+
+  
+  .btn__wave{
+    height:100%;
+  }
+  
+  .btn__wrapper {
+    position:absolute;
+    bottom: -80px;
+    right: -30px;
+    padding: 10px 60px;
+    font-size: 18px;
+    line-height: 40px;
+    border: 1px solid $blue;
+    text-decoration:none;
+    overflow:hidden;
+    transform:translate(-50%,-50%);
+    transition: all 1s;
+  
+    .btn__label {
+      z-index: 4;
+      position: relative;
+      color:$blue;
+      transition: color 1s;
+    }
+  
+    &:before{
+      z-index: 2;
+      position:absolute;
+      top: 110px;
+      left:50%;
+      width: 320px;
+      height: 320px;
+      content:'';
+      border-radius: 130px;
+      background-color: $blue;
+      transition: all 1s;
+    }
+  
+    &:hover{
+      .btn__label{
+        color:$white;
+      }
+  
+      &:before{
+        top: 15px;
+        transform:translate(-50%) rotate(-20deg);
+        animation:wave 5s 1;
+        transition: all 1s;
+      }
+    }
+  }
+  
+  @keyframes wave{
+    0%{
+      transform:translate(-50%) rotate(0deg);
+    }
+    100%{
+      transform:translate(-50%) rotate(160deg);
+    }
+  }
+  
+  
+  
