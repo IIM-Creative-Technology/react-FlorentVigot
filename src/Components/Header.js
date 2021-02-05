@@ -2,8 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import '../Sass/components/_header.scss';
 import wave from '../Assets/wave.svg';
-import Quiz2 from '../Pages//Quiz2'
-import Quiz2Info from '../Data/Quiz/Quiz2.json'
 
 const Logo = ({ image, alt }) => {
     return (
