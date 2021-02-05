@@ -15,19 +15,9 @@ const Introduction = ({ title, desc, link, label }) => {
                         </div>
                     </Link>
                 </div>
-
-                <Switch>
-                    <Route path="/Read">
-                        <Read />
-                    </Route>
-                </Switch>
             </div>
         </Router>
     )
-}
-
-function Read() {
-    return "Voir";
 }
 
 export default Introduction;
