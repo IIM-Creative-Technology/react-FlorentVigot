@@ -1,0 +1,41 @@
+@import '../helpers/variables';
+@import '../helpers/fonts';
+@import '../helpers/mixins';
+
+.Notfound {
+    color: $blue;
+    text-align: center;
+    height: 80vh;
+
+    h2 {
+        font-size: 25px ;
+        line-height: 20px;
+        padding-bottom: 50px;
+        font-weight: $font-weight-bold;
+
+        @include media-query($large-up) {
+            font-size: 35px ;
+            line-height: 25px;
+        }
+    }
+
+    img {
+        width: 200px;
+        padding-bottom: 50px;
+
+        @include media-query($large-up) {
+            width: 300px;
+            padding-bottom: 50px;
+        }
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 20px;
+
+        @include media-query($large-up) {
+            font-size: 18px;
+            line-height: 25px;
+        }
+    }
+}
