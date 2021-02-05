@@ -2,9 +2,14 @@
 
 footer {
     height: 300px;
-    margin-left: -80px;
-    margin-right: -80px;
+    margin-left: -50px;
+    margin-right: -50px;
     margin-top: -200px;
+
+    @include media-query($medium-up) {
+        margin-left: -80px;
+        margin-right: -80px;
+    }
 
     ul {
         height: 100%;
@@ -17,9 +22,13 @@ footer {
     a {
         z-index: 4;
         position: relative;
-        font-size: 14px;
+        font-size: 10px;
         color: $lightblue;
         font-weight: $font-weight-light;
+
+        @include media-query($medium-up) {
+            font-size: 14px;
+        }
     }
 }
 
