@@ -1,0 +1,124 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "question": "De quelle espèce vivante le requin fait-il partie, avec ses cinq à sept fentes branchiales ?",
+            "propositions": [
+                "Reptiles",
+                "Méduses",
+                "Poissons",
+                "Mammifères"
+            ],
+            "réponse": "Poissons",
+            "anecdote": "Les requins, squales ou sélachimorphes forment un super-ordre de poissons cartilagineux."
+        },
+        {
+            "id": 2,
+            "question": "Le requin-baleine, seul membre du genre Rhincodon, est un...",
+            "propositions": [
+                "Poisson",
+                "Cachalot",
+                "Mammifère",
+                "Cétacé"
+            ],
+            "réponse": "Poisson",
+            "anecdote": "Le requin-baleine peut exceptionnellement atteindre 20 mètres de long, pour une masse de 34 tonnes."
+        },
+        {
+            "id": 3,
+            "question": "Lequel de ces termes est également utilisé pour désigner les requins ?",
+            "propositions": [
+                "Squales",
+                "Mulets",
+                "Grondins",
+                "Rascasses"
+            ],
+            "réponse": "Squales",
+            "anecdote": "Les requins forment un super-ordre de poissons cartilagineux, possédant cinq à sept fentes branchiales sur les côtés de la tête."
+        },
+        {
+            "id": 4,
+            "question": "Le requin, qui met à mort des proies pour se nourrir, est donc un...",
+            "propositions": [
+                "Dévorateur",
+                "Provocateur",
+                "Prédateur",
+                "Grignoteur"
+            ],
+            "réponse": "Prédateur",
+            "anecdote": "Malgré le statut de prédateur, le requin se nourrit principalement de plancton en filtrant l'eau de mer."
+        },
+        {
+            "id": 5,
+            "question": "Grâce à quoi les requins peuvent-ils respirer, de la même manière que les raies ?",
+            "propositions": [
+                "Leur peau",
+                "Leurs poumons",
+                "Leurs nageoires",
+                "Leurs branchies"
+            ],
+            "réponse": "Leurs branchies",
+            "anecdote": "Les requins possèdent cinq à sept fentes branchiales sur les côtés de la tête."
+        },
+        {
+            "id": 6,
+            "question": "Quel élément caractéristique de la silhouette du requin fait souvent trembler les hommes ?",
+            "propositions": [
+                "Sa nageoire dorsale",
+                "Ses branchies",
+                "Sa queue",
+                "Son nez"
+            ],
+            "réponse": "Sa nageoire dorsale",
+            "anecdote": "Le squelette des nageoires du requin est allongé et soutenu par des rayons mous et non segmentés, nommés cératotriches."
+        },
+        {
+            "id": 7,
+            "question": "Quelles parties de l'anatomie du requin sont renouvelables ?",
+            "propositions": [
+                "Branchies",
+                "Dents",
+                "Nageoires",
+                "Yeux"
+            ],
+            "réponse": "Dents",
+            "anecdote": "Les mâchoires du requin sont entièrement mobiles, indépendantes, et garnies de plusieurs centaines de dents."
+        },
+        {
+            "id": 8,
+            "question": "Que sont obligés de faire en permanence la plupart des requins ?",
+            "propositions": [
+                "Boire",
+                "Manger",
+                "Dormir",
+                "Nager"
+            ],
+            "réponse": "Nager",
+            "anecdote": "Même à faible vitesse, les requins doivent nager pour maintenir un courant d'eau apportant suffisamment d'oxygène à leurs branchies."
+        },
+        {
+            "id": 9,
+            "question": "Quelle est la particularité du requin-tigre, l'une des plus grandes espèces de requins ?",
+            "propositions": [
+                "Vivipare",
+                "Mammifère",
+                "Stérile",
+                "Ovipare"
+            ],
+            "réponse": "Ovipare",
+            "anecdote": "Mesurant de 3 à 4 mètres, on trouve le requin-tigre dans les océans tempérés et tropicaux."
+        },
+        {
+            "id": 10,
+            "question": "Quelle est la partie du requin la plus sollicitée en Asie pour ses propriétés aphrodisiaques ?",
+            "propositions": [
+                "La queue",
+                "Les ailerons",
+                "Les dents",
+                "La peau"
+            ],
+            "réponse": "Les ailerons",
+            "anecdote": "Les requins sont intensivement pêchés, le plus souvent uniquement pour leurs ailerons qui constituent l'ingrédient principal de mets."
+        }
+    ]
+}

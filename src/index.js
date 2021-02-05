@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Quiz2 from './Pages/Quiz2'
+import Quiz2Info from './Data/Quiz/Quiz2.json'
+
 
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Quiz2 infoData={Quiz2Info.data} />
   </React.StrictMode>,
   document.getElementById('root')
 );
