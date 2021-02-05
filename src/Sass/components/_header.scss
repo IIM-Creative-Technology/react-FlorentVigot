@@ -7,6 +7,11 @@ header {
     height: 100px;
     background-color: $blue;
 
+    @include media-query($small) {
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+
     img {
         position: absolute;
         width: 60px;
@@ -16,14 +21,27 @@ header {
 
     ul {
         height: 100%;
-        width: 400px;
-        margin-left: 150px;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        @include media-query($small) {
+            padding-left: 40px;
+         }
+
+        @include media-query($medium-down) {
+            justify-content: center;
+         }
+
+        @include media-query($large-up) {
+            width: 400px;
+            margin-left: 150px;
+        }
     }
 
     a {
+        font-size: 16px;
         color: $white;
         font-weight: $font-weight-semibold;
         transition: color 0.2s;
@@ -31,5 +49,14 @@ header {
         &:hover {
             color: $lightblue;
         }
+
+        @include media-query($medium-down) {
+           padding-left: 50px;
+        }
+
+        @include media-query($small) {
+            font-size: 14px;
+            padding-left: 20px;
+         }
     }
 }
