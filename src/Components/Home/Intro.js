@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import '../Sass/components/_intro.scss';
+import '../../Sass/components/_intro.scss';
 
-const Introduction =({title, desc, link, label}) => {
+const Introduction = ({ title, desc, link, label }) => {
     return (
         <Router>
             <div className="home__intro">
@@ -18,7 +18,7 @@ const Introduction =({title, desc, link, label}) => {
 
                 <Switch>
                     <Route path="/Read">
-                        <Read/>
+                        <Read />
                     </Route>
                 </Switch>
             </div>

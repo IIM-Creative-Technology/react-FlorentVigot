@@ -1,0 +1,124 @@
+{
+    "quiz3": [
+        {
+            "id": 1,
+            "question": "Une péniche sur la Seine de Paris est aussi associée à un insecte tel le bateau- ",
+            "propositions": [
+                "Papillons",
+                "Guèpe",
+                "Mouche",
+                "Tique"
+            ],
+            "réponse": "Mouche",
+            "anecdote": "Le bateau mouche"
+        },
+        {
+            "id": 2,
+            "question": "Un bateau à moteur utilisé par les sauveteurs en mer s'appelle un...",
+            "propositions": [
+                "Zebda",
+                "Zodiac",
+                "Zouk",
+                "Zoophile"
+            ],
+            "réponse": "Zodiac",
+            "anecdote": "Le requin-baleine peut exceptionnellement atteindre 20 mètres de long, pour une masse de 34 tonnes."
+        },
+        {
+            "id": 3,
+            "question": "Un radeau est un bateau de...",
+            "propositions": [
+                "Fissure",
+                "Fortune",
+                "Fermeture",
+                "Figure"
+            ],
+            "réponse": "Fortune",
+            "anecdote": "Les requins forment un super-ordre de poissons cartilagineux, possédant cinq à sept fentes branchiales sur les côtés de la tête."
+        },
+        {
+            "id": 4,
+            "question": "Tomber à l'eau se dit en criant 'un homme à....'",
+            "propositions": [
+                "L'envers",
+                "l'estuaire",
+                "l'air",
+                "la mer"
+            ],
+            "réponse": "la mer",
+            "anecdote": "Malgré le statut de prédateur, le requin se nourrit principalement de plancton en filtrant l'eau de mer."
+        },
+        {
+            "id": 5,
+            "question": "Diane Tell chante qu'elle serait Capitaine d'un bateau...",
+            "propositions": [
+                "Noir et blanc",
+                "Vert et blanc",
+                "Bleu et gris",
+                "Gris et noir"
+            ],
+            "réponse": "Vert et blanc",
+            "anecdote": "Les requins possèdent cinq à sept fentes branchiales sur les côtés de la tête."
+        },
+        {
+            "id": 6,
+            "question": "Eric Morena chante que son bateau est le plus ..... des bateaux.",
+            "propositions": [
+                "Beau",
+                "Gros",
+                "Merveilleux",
+                "Lourd"
+            ],
+            "réponse": "Beau",
+            "anecdote": "Le squelette des nageoires du requin est allongé et soutenu par des rayons mous et non segmentés, nommés cératotriches."
+        },
+        {
+            "id": 7,
+            "question": "Arthur Rimbaud a écrit ' le bateau...'",
+            "propositions": [
+                "Immédiat",
+                "Ivre",
+                "Intelligent",
+                "Invisible"
+            ],
+            "réponse": "Ivre",
+            "anecdote": "Les mâchoires du requin sont entièrement mobiles, indépendantes, et garnies de plusieurs centaines de dents."
+        },
+        {
+            "id": 8,
+            "question": "La droite d'un bateau s'appelle :",
+            "propositions": [
+                "Babord",
+                "Tribord",
+                "Surlesbord",
+                "Tutendor"
+            ],
+            "réponse": "Tribord",
+            "anecdote": "Même à faible vitesse, les requins doivent nager pour maintenir un courant d'eau apportant suffisamment d'oxygène à leurs branchies."
+        },
+        {
+            "id": 9,
+            "question": "Pour gonfler un bateau pneumatique on envoie de l'air dans un(e)...",
+            "propositions": [
+                "Sifflet",
+                "Four",
+                "Valve",
+                "Abime"
+            ],
+            "réponse": "Valve",
+            "anecdote": "Mesurant de 3 à 4 mètres, on trouve le requin-tigre dans les océans tempérés et tropicaux."
+        },
+        {
+            "id": 10,
+            "question": "La péniche doit passer obligatoirement par un passage étroit nommé :",
+            "propositions": [
+                "Méduse",
+                "Effluve",
+                "Ecluse",
+                "Fistule"
+            ],
+            "réponse": "Ecluse",
+            "anecdote": "Les requins sont intensivement pêchés, le plus souvent uniquement pour leurs ailerons qui constituent l'ingrédient principal de mets."
+        }
+    ]
+}
