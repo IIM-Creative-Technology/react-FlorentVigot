@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import '../Sass/components/_header.scss';
 import wave from '../Assets/wave.svg';
-import Quiz2 from '../Pages//Quiz2'
+//import Quiz2 from '../Pages//Quiz2'
 
 const Logo = ({ image, alt }) => {
     return (
@@ -29,18 +29,10 @@ const Header = (props) => {
                 <Logo image={wave} />
                 <Nav infoData={infoData} />
 
+
                 <Switch>
-                    {/* <Route path="/quiz1">
-                        <Quiz1 />
-                    </Route> */}
-                    <Route path="/quiz2">
+                    {/* <Route path="/">
                         <Quiz2 />
-                    </Route>
-                    {/* <Route path="/quiz3">
-                        <Quiz3 />
-                    </Route>
-                    <Route path="/quiz4">
-                        <Quiz4 />
                     </Route> */}
                 </Switch>
             </header>
@@ -48,18 +40,14 @@ const Header = (props) => {
     )
 }
 
-
+// function Quiz2() {
+//     Quiz2.render(
+//         <Quiz2/>
+//     )
+// }
 
 // function Quiz2() {
-//     return (
-//         <Router>
-//             <Link to="/">Home</Link>
-//             <Link to="/quiz2">quiz2</Link>
-//             {/* <Link to="/quiz3">quiz3</Link>
-//             <Link to="/quiz4">quiz4</Link> */}
-
-//         </Router>
-//     )
+//     return "quiz2";
 // }
 
 // function Quiz3() {
