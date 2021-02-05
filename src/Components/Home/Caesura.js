@@ -1,6 +1,7 @@
-import '../Sass/components/_caesura.scss';
 
-const Caesura =({desc}) => {
+import '../../Sass/components/_caesura.scss';
+
+const Caesura = ({ desc }) => {
     return (
         <div className="home__caesura">
             <p>{desc}</p>

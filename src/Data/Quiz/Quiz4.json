@@ -1,0 +1,124 @@
+{
+    "quiz4": [
+        {
+            "id": 1,
+            "question": "L'appareil qui sert à mesurer la direction du vent s'appelle :",
+            "propositions": [
+                "girouette",
+                "anemometre",
+                "thermometre",
+                "hygrometre"
+            ],
+            "réponse": "girouette",
+            "anecdote": "La girouette"
+        },
+        {
+            "id": 2,
+            "question": "La direction du vent indiquée par les services météorologiques est la direction ",
+            "propositions": [
+                "d'ou vien le vent par rapport au nord",
+                "d'ou vien le vent par rapport au sud",
+                "d'ou vien le vent par rapport au est",
+                "d'ou vien le vent par rapport au ouest"
+            ],
+            "réponse": "d'ou vien le vent par rapport au nord",
+            "anecdote": "Le requin-baleine peut exceptionnellement atteindre 20 mètres de long, pour une masse de 34 tonnes."
+        },
+        {
+            "id": 3,
+            "question": "Les nuages sont constitués de :",
+            "propositions": [
+                "Vapeur d'eau et d'air",
+                "goutellette d'eau seulement",
+                "goutelette d'eau en suspension dans l'air",
+                "coton en provenance de louisiane"
+            ],
+            "réponse": "goutelette d'eau en suspension dans l'air",
+            "anecdote": "Les requins forment un super-ordre de poissons cartilagineux, possédant cinq à sept fentes branchiales sur les côtés de la tête."
+        },
+        {
+            "id": 4,
+            "question": "Le phénomène de halo se produit :",
+            "propositions": [
+                "en présence de cirrostratus",
+                "précipitations éclairés du soleil",
+                "vaisseau d'extra-terrestre",
+                "à l'horizon opposé à l'endroit ou se trouve le soleil"
+            ],
+            "réponse": "en présence de cirrostratus",
+            "anecdote": "Malgré le statut de prédateur, le requin se nourrit principalement de plancton en filtrant l'eau de mer."
+        },
+        {
+            "id": 5,
+            "question": "Vous apercevez à l'horizon un nuage dont le sommet, fibreux et situé à haute altitude, a la forme d'une enclume. Sa base est très sombre et semble près du sol. Ce nuage est un :",
+            "propositions": [
+                "Cumulus",
+                "Nimbostratus",
+                "Cubitus",
+                "Cumulonimbus"
+            ],
+            "réponse": "Cumulonimbus",
+            "anecdote": "Les requins possèdent cinq à sept fentes branchiales sur les côtés de la tête."
+        },
+        {
+            "id": 6,
+            "question": "En plaine, la hauteur au-dessus du sol vers laquelle on rencontre les stratus est",
+            "propositions": [
+                "100m",
+                "200m",
+                "300m",
+                "1000m"
+            ],
+            "réponse": "200m",
+            "anecdote": "Le squelette des nageoires du requin est allongé et soutenu par des rayons mous et non segmentés, nommés cératotriches."
+        },
+        {
+            "id": 7,
+            "question": "Sous quels nuages peut-on observer des averses ?",
+            "propositions": [
+                "gros cumulus, cumulonimbus",
+                "stratus stratocumulus",
+                "tout type de nuage",
+                "altostratus, nimbostratus"
+            ],
+            "réponse": "gros cumulus, cumulonimbus",
+            "anecdote": "Les mâchoires du requin sont entièrement mobiles, indépendantes, et garnies de plusieurs centaines de dents."
+        },
+        {
+            "id": 8,
+            "question": "Combien de genres de nuages existe-t-il ?",
+            "propositions": [
+                "6",
+                "10",
+                "12",
+                "37"
+            ],
+            "réponse": "10",
+            "anecdote": "Même à faible vitesse, les requins doivent nager pour maintenir un courant d'eau apportant suffisamment d'oxygène à leurs branchies."
+        },
+        {
+            "id": 9,
+            "question": "Expression du mauvais temps, l'intrus est :",
+            "propositions": [
+                "chien",
+                "merde",
+                "mouette",
+                "sale"
+            ],
+            "réponse": "mouette",
+            "anecdote": "Mesurant de 3 à 4 mètres, on trouve le requin-tigre dans les océans tempérés et tropicaux."
+        },
+        {
+            "id": 10,
+            "question": "Prénom des Cyclones donné entre 2013 et 2016, l'intrus est :",
+            "propositions": [
+                "hanna",
+                "nana",
+                "wendy",
+                "delphine"
+            ],
+            "réponse": "delphine",
+            "anecdote": "Les requins sont intensivement pêchés, le plus souvent uniquement pour leurs ailerons qui constituent l'ingrédient principal de mets."
+        }
+    ]
+}

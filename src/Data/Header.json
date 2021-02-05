@@ -1,10 +1,10 @@
 {
     "data": [
-         {
-             "title": "Quiz1"
-         },
-         {
-            "title": "Quiz2"
+        {
+            "title": "Quiz1"
+        },
+        {
+            "title": "quiz2"
         },
         {
             "title": "Quiz3"
@@ -13,4 +13,4 @@
             "title": "Quiz4"
         }
     ]
- }
+}
