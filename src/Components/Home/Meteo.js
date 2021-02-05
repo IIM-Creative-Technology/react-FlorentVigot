@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import '../Sass/components/_meteo.scss';
+import '../../Sass/components/_meteo.scss';
 
 function Axios() {
 
