@@ -26,5 +26,10 @@ header {
     a {
         color: $white;
         font-weight: $font-weight-semibold;
+        transition: color 0.2s;
+
+        &:hover {
+            color: $lightblue;
+        }
     }
 }
