@@ -4,20 +4,17 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "../Pages/Home";
 
 
-import Quiz1 from "../Pages/Quiz1"
-import Quiz2 from "../Pages/Quiz2"
-import Quiz3 from "../Pages/Quiz3"
-import Quiz4 from "../Pages/Quiz4"
-import NotFound from "./NoMatch";
+import Quiz2 from '../Pages/Quiz2'
+import Quiz2Info from '../Data/Quiz/Quiz2.json'
+import NotFound from '../Pages/NotFound'
 
 const Routeur = () => (
     <Router>
         <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/quiz1" component={Quiz1} />
-            <Route exact path="/quiz2" component={Quiz2} />
-            <Route exact path="/quiz3" component={Quiz3} />
-            <Route exact path="/quiz4" component={Quiz4} />
+            <Route exact path="/quiz2">
+              <Quiz2 infoData={Quiz2Info.data}/>
+            </Route>
             <Route path="*" component={NotFound} />
         </Switch>
     </Router>

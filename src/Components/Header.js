@@ -1,8 +1,9 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import '../Sass/components/_header.scss';
 import wave from '../Assets/wave.svg';
-//import Quiz2 from '../Pages//Quiz2'
+import Quiz2 from '../Pages//Quiz2'
+import Quiz2Info from '../Data/Quiz/Quiz2.json'
 
 const Logo = ({ image, alt }) => {
     return (
@@ -28,34 +29,10 @@ const Header = (props) => {
             <header>
                 <Logo image={wave} />
                 <Nav infoData={infoData} />
-
-
-                <Switch>
-                    {/* <Route path="/">
-                        <Quiz2 />
-                    </Route> */}
-                </Switch>
             </header>
         </Router>
     )
 }
 
-// function Quiz2() {
-//     Quiz2.render(
-//         <Quiz2/>
-//     )
-// }
-
-// function Quiz2() {
-//     return "quiz2";
-// }
-
-// function Quiz3() {
-//     return "Quiz3";
-// }
-
-// function Quiz4() {
-//     return "Quiz4";
-// }
 
 export default Header;

@@ -7,6 +7,7 @@ import Quiz2 from './Pages/Quiz2'
 import Quiz2Info from './Data/Quiz/Quiz2.json'
 
 
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
