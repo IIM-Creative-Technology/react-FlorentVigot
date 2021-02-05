@@ -1,4 +1,6 @@
-  @mixin media-query($media-query) {
+@import '../helpers/variables';
+
+@mixin media-query($media-query) {
     $breakpoint-found: false;
   
     @each $breakpoint in $breakpoints {
