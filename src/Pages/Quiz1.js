@@ -25,15 +25,16 @@ const Info = (props) => {
 
 
 
-const Quiz2 = (props) => {
+const Quiz1 = (props) => {
     const { infoData } = props;
     return (
         <div className="Quizbody">
-            <h1>Bienvenue sur Quiz2</h1>
-            <h2>Thème Requin</h2>
+            <h1>Bienvenue sur Quiz1</h1>
+            <h2>Thème Poisson</h2>
             <Info infoData={infoData} />
             <PageSuivante />
             {/* <Score /> */}
+
         </div >
     )
 }
@@ -41,4 +42,4 @@ const Quiz2 = (props) => {
 
 
 
-export default Quiz2;
+export default Quiz1;

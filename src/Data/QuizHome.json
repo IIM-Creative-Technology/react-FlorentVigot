@@ -1,20 +1,20 @@
 {
     "data": [
-         {
-             "title": "Quiz1",
-             "image": "https://www.pauline-aelion.fr/img_other/sailing.svg"
-         },
-         {
-            "title": "Quiz2",
-            "image": "https://www.pauline-aelion.fr/img_other/sea.svg"
-        },
         {
-            "title": "Quiz3",
+            "title": "Thème Poisson",
             "image": "https://www.pauline-aelion.fr/img_other/clown-fish.svg"
         },
         {
-            "title": "Quiz4",
+            "title": "Thème Requin",
+            "image": "https://www.pauline-aelion.fr/img_other/sea.svg"
+        },
+        {
+            "title": "Thème Bateau",
+            "image": "https://www.pauline-aelion.fr/img_other/sailing.svg"
+        },
+        {
+            "title": "Thème Météo",
             "image": "https://www.pauline-aelion.fr/img_other/windsock.svg"
         }
     ]
- }
+}

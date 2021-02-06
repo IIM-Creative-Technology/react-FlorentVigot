@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import '../../Sass/components/_intro.scss';
 
 const Introduction = ({ title, desc, link, label }) => {
