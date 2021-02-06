@@ -1,5 +1,5 @@
 import React from "react";
-// import Score from "../Components/Hooks/Score";
+import Score from "../Components/Hooks/Score";
 import PageSuivante from "../Components/Hooks/PageSuivante"
 import "../Sass/Quiz/_quiz.scss"
 
@@ -9,7 +9,7 @@ const Info = (props) => {
     // on map l'ensemble des données 
     const Post = props.infoData.map((data, index) => {
         return (
-            <div >
+            <div className="Quiz2bodys">
                 {/* <p>id {data.id}</p> */}
 
                 <h3>Questions : {data.question}</h3>
@@ -42,12 +42,12 @@ const Info = (props) => {
 
 
 
-const Quiz3 = (props) => {
+const Quiz1 = (props) => {
     const { infoData } = props;
     return (
         <div className="Quizbody">
-            <h1>Bienvenue sur Quiz3</h1>
-            <h2>Thème Bateau </h2>
+            <h1>Bienvenue sur Quiz1</h1>
+            <h2>Thème Poisson</h2>
             <Info infoData={infoData} />
             <PageSuivante />
             {/* <Score /> */}
@@ -56,4 +56,7 @@ const Quiz3 = (props) => {
     )
 }
 
-export default Quiz3;
+
+
+
+export default Quiz1;

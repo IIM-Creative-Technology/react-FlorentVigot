@@ -9,20 +9,18 @@ function Home() {
     return (
         <div className="Home">
             <Intro
-                title="Titre"
-                desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel dui iaculis, volutpat dolor a, sagittis mi. Praesent sit amet massa nec purus bibendum tincidunt at quis magna. Phasellus maximus vehicula mauris at pellentesque. Nunc et lectus iaculis, feugiat risus quis, euismod odio. Integer commodo tristique diam. Praesent ut arcu ac urna consectetur hendrerit. Duis ex mauris, commodo id sapien id, sagittis aliquet diam. Quisque vitae suscipit nunc, sed efficitur leo. Sed vel auctor lectus. Morbi vel blandit ante, at semper sapien. Cras viverra risus nunc, ac viverra massa malesuada ut. Nullam pulvinar accumsan sem, vel volutpat est lacinia ut. Donec hendrerit maximus arcu. Maecenas sit amet orci vitae lectus ultricies tincidunt in vel neque. Suspendisse dolor urna, consequat ut ipsum nec, fringilla venenatis enim. In hendrerit risus ornare, consequat ante a, molestie ipsum."
+                title="Les quiz marins"
+                desc="Voici 4 quizs autours du domaine de la mer. Testez vos 		connaissances et apprenez-en toujours plus. Infos bonus sur les océans : Un océan est souvent défini, en géographie, comme une vaste étendue d'eau salée comprise entre deux continents. En fait, il s'agit plutôt d'un volume, dont l'eau est en permanence brassée par des courants marins. Approximativement 70,8 % de la surface de la Terre est recouverte par l'Océan mondial, communément divisé en cinq océans — Pacifique, Atlantique, Arctique, Austral, Indien — et en plusieurs dizaines de mers. Avec une profondeur moyenne de 3 682 mètres, les océans représentent 96 % du volume biosphérique. "
                 link="quiz2"
                 label="Voir"
             />
 
             <Quiz infoData={QuizHome.data} />
 
-            <Meteo/>
+            <Meteo />
 
             <Caesura
-                desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel dui iaculis, volutpat dolor a, sagittis mi. Praesent sit amet massa nec purus bibendum tincidunt at quis magna. Phasellus maximus vehicula mauris at pellentesque. Nunc et lectus iaculis, feugiat risus quis, euismod odio. Integer commodo tristique diam. Praesent ut arcu ac urna consectetur hendrerit. Duis ex mauris, commodo id sapien id, sagittis aliquet diam. Quisque vitae suscipit nunc, sed efficitur leo. Sed vel auctor lectus. Morbi vel blandit ante, at semper sapien. Cras viverra risus nunc, ac viverra massa malesuada ut. Nullam pulvinar accumsan sem, vel volutpat est lacinia ut. Donec hendrerit maximus arcu. Maecenas sit amet orci vitae lectus ultricies tincidunt in vel neque. Suspendisse dolor urna, consequat ut ipsum nec, fringilla venenatis enim. In hendrerit risus ornare, consequat ante a, molestie ipsum.
-
-        Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras sollicitudin varius purus a finibus. Nulla ut eros convallis, sodales ex non, venenatis tortor. Curabitur dignissim venenatis justo a vestibulum. Ut laoreet urna sit amet molestie sodales. Nunc fringilla euismod odio, non interdum dolor faucibus nec. Integer dictum fringilla sapien semper pellentesque. Cras eget arcu quis eros blandit varius ut a ex. Phasellus quis elit tincidunt, luctus nunc efficitur, ullamcorper neque. Aenean posuere dapibus vulputate."
+                desc=" L'océan mondial, qui abrite la majorité des espèces vivantes sur Terre (50 à 80 % selon les estimations), génère plus de 60 % des services écosystémiques qui nous permettent de vivre, à commencer par la production de la majeure partie de l'oxygène que nous respirons. Il absorbe environ 30 % des émissions de CO2 générées par l'humanité, ce qui provoque son acidification6. L'océan Mondial régule à plus de 80 % le climat de la Terre. Il joue un rôle majeur dans la température terrestre."
             />
         </div >
     );
