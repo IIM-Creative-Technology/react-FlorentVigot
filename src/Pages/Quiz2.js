@@ -1,9 +1,8 @@
 import React from "react";
-import Score from "../Components/Hooks/Score";
+// import Score from "../Components/Hooks/Score";
 import PageSuivante from "../Components/Hooks/PageSuivante"
 import "../Sass/Quiz/_quiz.scss"
 
-// const [postsuivant, setPostsuivant] = useState(0);
 
 const Info = (props) => {
     // on map l'ensemble des données 

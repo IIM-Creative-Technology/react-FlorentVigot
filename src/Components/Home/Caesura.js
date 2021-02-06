@@ -1,4 +1,3 @@
-
 import '../../Sass/components/_caesura.scss';
 
 const Caesura = ({ desc }) => {
