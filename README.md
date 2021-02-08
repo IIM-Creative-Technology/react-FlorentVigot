@@ -1,5 +1,5 @@
 # This project was create in React JS.
-
+# Pauline Aelion et Florent Vigot
 
 In the project directory, you can run:
 
